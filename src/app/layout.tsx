@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Navbar from '@/ui/Navbar';
+import Footer from '@/ui/Footer';
 
 import './globals.css';
 import ColorThemeProvider from '@/contexts/ColorTheme';
@@ -23,6 +24,7 @@ export default function RootLayout({
         <ColorThemeProvider>
           <Navbar />
           {children}
+          <Footer />
         </ColorThemeProvider>
       </body>
     </html>

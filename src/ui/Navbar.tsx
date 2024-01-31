@@ -7,7 +7,7 @@ const Navbar = () => {
   const { setColorPalette } = useContext(ColorThemeContext);
 
   return (
-    <header className="w-full fixed  z-50 bg-white h-[80px] ">
+    <header className="w-full fixed  z-50 bg-white h-[80px] shadow-sm ">
       <nav className="max-w-screen-super-large mx-auto flex items-center h-full justify-between">
         <div>LOGO</div>
 
