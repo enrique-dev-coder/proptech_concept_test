@@ -10,7 +10,10 @@ import {
 export const ColorThemeContext = createContext<{
   colorPalette: string;
   setColorPalette: Dispatch<SetStateAction<string>>;
-}>({ colorPalette: 'red', setColorPalette: () => {} });
+}>({
+  colorPalette: 'red',
+  setColorPalette: () => {},
+});
 
 const ColorThemeProvider = ({ children }: { children: ReactNode }) => {
   const [colorPalette, setColorPalette] = useState('red');

@@ -18,11 +18,16 @@ export default function Home() {
   return (
     <>
       {/* hero section */}
-      <main className="h-screen max-w-screen-super-large flex items-center justify-center mx-auto ">
+      <main
+        className={`
+       
+        h-screen max-w-screen-super-large flex items-center justify-center mx-auto 
+      `}
+      >
         {/* title */}
         <div className="w-1/2 h-full flex flex-col px-8 relative">
           <div className="flex-1 flex flex-col justify-center">
-            <h1 className=" text-5xl font-medium mb-4">
+            <h1 className={`text-5xl font-medium mb-4`}>
               <GradientText text="Empieza a invertir hoy mismo." />
             </h1>
             <h2 className="text-4xl font-medium mb-4 text-write-main">
